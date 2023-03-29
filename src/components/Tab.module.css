@@ -1,0 +1,19 @@
+.addTask{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1.5rem;
+}
+
+.addTask textarea{
+    width: 50%;
+    height: 3rem;
+    background-color: var(--gray-500);
+    color: var(--gray-300);
+    border: none;
+    resize: none;
+    border-radius: 8px;
+}   
