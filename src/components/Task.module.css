@@ -1,0 +1,16 @@
+.task{
+    height: 4.5rem;
+    width: 75%;
+    background-color: var(--gray-500);
+    margin-top: 2rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+}
+
+.task input{
+    appearance: none;
+    
+}

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Header } from './components/Header'
 import { Tab } from './components/Tab'
+import {Task} from './components/Task'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header/>
       <Tab/>
+      <Task/>
     </>
   )
 }
