@@ -16,4 +16,6 @@
     border: none;
     resize: none;
     border-radius: 8px;
+    display: flex;
+    text-align: center;
 }   
