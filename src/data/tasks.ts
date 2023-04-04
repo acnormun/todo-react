@@ -1,6 +1,6 @@
 import { ITask } from "../interfaces/ITask"
 
-export class Tasks{
+class Tasks{
 
     private taskList: Array<ITask> = [
         {
@@ -25,3 +25,5 @@ export class Tasks{
         this.taskList.push(item)
     }
 }
+
+export default new Tasks();
